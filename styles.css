@@ -41,6 +41,16 @@ nav {
     position: relative;
 }
 
+.banner-card-transport {
+    background-image: url(images/airport.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    position: relative;
+}
+
+
 .navigation {
     display: flex;
     justify-content: center;
@@ -63,6 +73,17 @@ h2, p {
 }
 
 .banner-card .image-credit {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-size: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 4px 6px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.banner-card-transport .image-credit {
     position: absolute;
     bottom: 5px;
     right: 10px;
@@ -130,6 +151,44 @@ h2, p {
 }
 
 .activity-item {
+    position: relative;
+}
+
+.arrival {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px;
+    padding: 0 80px
+}
+
+.arrival-options {
+    position: relative;
+}
+
+.arrival-img {
+    width: 700px;
+    height: 500px;
+}
+
+.arrival-options .image-credit {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-size: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 4px 6px;
+    border-radius: 0 0 4px 4px;
+    text-decoration: none;
+}
+
+.caption {
+    font-style: italic;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.image-wrapper {
     position: relative;
 }
 
