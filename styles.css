@@ -59,7 +59,7 @@ nav {
 h2, p {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .banner-card .image-credit {
@@ -131,4 +131,169 @@ h2, p {
 
 .activity-item {
     position: relative;
+}
+
+.banner-two {
+    background-image: url(images/hotel.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    position: relative;
+    padding-top: 120px;
+    text-align: center;
+}
+
+.banner-two-credit .image-credit {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-size: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 4px 6px;
+    border-radius: 0 0 4px 4px;
+    text-decoration: none;
+}
+
+.meadow-summary {
+  max-width: 700px;
+  margin: 100px auto 20px auto;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.book-btn {
+  display: inline-block;
+  margin: 20px auto 0;
+  padding: 12px 24px;
+  background-color: #759dbe;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+.book-btn:hover {
+  background-color: lightblue;
+}
+
+
+.social-media {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-end;
+    justify-content: center;
+    gap: 10px;
+    margin: 80px;
+}
+
+.social-media-item .image-credit {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-size: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 4px 6px;
+    border-radius: 0 0 4px 4px;
+    text-decoration: none;
+}
+
+.social-media-item {
+    position: relative;
+}
+
+.social-media-item h3 {
+    margin-bottom: 10px;  
+  margin-top: 0;     
+  text-align: left;   
+}
+
+
+.img-one {
+    width: 500px;
+    height: auto;
+}
+
+.img-two {
+    width: auto;
+    height: 400px;
+}
+
+.img-three {
+    width: 500px;
+    height: auto;
+}
+
+.img-four {
+    width: auto;
+    height: 400px;
+}
+
+.img-five {
+    width: 400px;
+    height: auto;
+}
+
+.img-six {
+    width: auto;
+    height: 300px;
+}
+
+.img-seven {
+    width: 350px;
+    height: auto;
+}
+
+.social-icon {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #759dbe;
+  color: white;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer-left {
+  justify-content: flex-start;
+}
+
+.footer-right {
+  justify-content: flex-end;
+}
+
+.footer-right a {
+  color: black;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer-right a:hover {
+  text-decoration: underline;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
 }
