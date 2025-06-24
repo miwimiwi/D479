@@ -50,6 +50,15 @@ nav {
     position: relative;
 }
 
+.banner-card-accommodation {
+    background-image: url(images/resort.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    position: relative;
+}
+
 
 .navigation {
     display: flex;
@@ -84,6 +93,17 @@ h2, p {
 }
 
 .banner-card-transport .image-credit {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-size: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 4px 6px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.banner-card-accommodation .image-credit {
     position: absolute;
     bottom: 5px;
     right: 10px;
@@ -223,6 +243,32 @@ h2, p {
     position: relative;
 }
 
+.accommodation {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+    margin: 40px;
+    padding: 0 80px
+}
+
+.accommodation img {
+    width: 450px;
+    height: 340px;
+}
+
+.accommodation-places .image-credit {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-size: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 4px 6px;
+    border-radius: 0 0 4px 4px;
+    text-decoration: none;
+}
+
 .banner-two {
     background-image: url(images/hotel.jpg);
     background-size: cover;
@@ -264,6 +310,14 @@ h2, p {
   transition: background-color 0.3s ease;
   text-align: center;
 }
+
+.rating {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    color: gold;
+}
+
 
 .book-btn:hover {
   background-color: lightblue;
