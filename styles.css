@@ -68,7 +68,14 @@ nav {
     position: relative;
 }
 
-
+.banner-card-food {
+    background-image: url(images/grapes.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    position: relative;
+}
 
 .navigation {
     display: flex;
@@ -125,6 +132,17 @@ h2, p {
 }
 
 .banner-card-sightseeing .image-credit {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-size: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 4px 6px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.banner-card-food .image-credit {
     position: absolute;
     bottom: 5px;
     right: 10px;
@@ -194,6 +212,54 @@ h2, p {
 .activity-item {
     position: relative;
 }
+
+.food {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    gap: 20px;
+}
+
+.food-item {
+    position: relative;
+}
+
+.food-item .image-credit {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-size: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 4px 6px;
+    border-radius: 0 0 4px 4px;
+    text-decoration: none;
+}
+
+.stores {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px;
+    padding: 0 80px
+}
+
+.store-options {
+    position: relative;
+}
+
+.store-options .image-credit {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-size: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 4px 6px;
+    border-radius: 0 0 4px 4px;
+    text-decoration: none;
+}
+
+
 
 .arrival {
     display: flex;
@@ -349,6 +415,36 @@ h2, p {
     border-radius: 0 0 4px 4px;
     text-decoration: none;
 }
+
+.banner-two-food {
+    background-image: url(images/wine.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    position: relative;
+    padding-top: 120px;
+    text-align: center;
+}
+
+.banner-two-food-credit .image-credit {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-size: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 4px 6px;
+    border-radius: 0 0 4px 4px;
+    text-decoration: none;
+}
+
+.food-summary {
+  max-width: 700px;
+  margin: 100px auto 20px auto;
+  line-height: 1.6;
+  text-align: justify;
+}
+
 
 .beach-summary {
   max-width: 700px;
