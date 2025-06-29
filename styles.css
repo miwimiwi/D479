@@ -77,6 +77,15 @@ nav {
     position: relative;
 }
 
+.banner-card-faq {
+    background-image: url(images/beachflower.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    position: relative;
+}
+
 .navigation {
     display: flex;
     justify-content: center;
@@ -97,6 +106,32 @@ h2, p {
     justify-content: center;
     margin-top: 20px;
 }
+
+ .faq-section ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+.faq-section li {
+    margin-bottom: 12px;
+    line-height: 1.6;
+    color: #444;
+}
+
+.faq-section {
+    max-width: 900px;
+    margin: 40px auto; /* centers and adds vertical space */
+    padding: 40px;
+    text-align: left;  /* keep text aligned left for readability */
+    font-family: Arial, sans-serif;
+}
+
+.faq-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+ }
+
 
 .banner-card .image-credit {
     position: absolute;
@@ -143,6 +178,17 @@ h2, p {
 }
 
 .banner-card-food .image-credit {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-size: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 4px 6px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.banner-card-faq .image-credit {
     position: absolute;
     bottom: 5px;
     right: 10px;
@@ -601,4 +647,65 @@ footer {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.form-row label {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.message-label {
+  display: flex;
+  flex-direction: column;
+  width: 520px;
+  max-width: 90%;
+}
+
+input, textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-bottom: 40px;
+  font-size: 14px;
+  background-color: #759dbe;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: lightblue;
 }
